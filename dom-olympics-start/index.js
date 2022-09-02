@@ -68,4 +68,3 @@ form.addEventListener("submit", (e) => {
         messages.innerHTML+="<div class = 'message right'>"+input+"</div>"
     }
 })
-
