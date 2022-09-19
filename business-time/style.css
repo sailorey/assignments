@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile Screen */
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    width: 100%;
+    grid-template-rows: auto auto auto auto ;
+    grid-template-areas: 
+    "title"
+    "content "
+    "mainContent "
+    "footer "
+}
+
+.title {
+    grid-area: title;
+    display: flex;
+    padding: 4px;
+    margin: 1px;
+    justify-content: space-around;
+    background-color: rgb(245, 234,234);
+    font-size: 20px;
+    width: 100%;
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainContent {
+    grid-area: mainContent;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    grid-area: footer;
+    display: inline-block;
+    background-color: rgb(207, 180, 131 , 0.2);
+    text-align: center;
+
+}
+
+/* end of grid base */
+/* start of the navbar */
+
+
+.link {
+    padding: 5px;
+    color: rgb(86, 150, 247);
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: rgba(72, 249, 240, 0.097)
+}
+
+/* end of navbar */
+/* start of content */
+
+.image {
+    width: 100%;
+}
+
+.boy , .girl , .best , .new , .sale , .accessories {
+    width: 48%;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.boyText , .girlText , .bestText, .newText , .saleText , .accText {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* end of content */
+/* start of banner/main content */
+
+.mainImage {
+    width:100%;
+    margin: 2px;
+}
+
+.mainText {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 77, 103, 0.9);
+    font-size: 100px;
+    font-family:'Pacifico', cursive ;
+}
+
+/* end of main content */
+/* start of the footer */
+
+ul {
+    list-style-type:none
+} 
+
+li {
+    font-size: 20px;
+}
+
+.pFooter {
+    font-size: 30px;
+    padding: 2px;
+}
+
+
+.sideFooter , .sideFooter2 , .sideFooter3 {
+    display: inline-block;
+    width: 25%;
+    padding: 2%;
+    text-align: center;
+}
+
+@media screen and (min-width: 830px) {
+
+    /* start of grid */
+
+    .grid {
+        display: grid;
+        grid-gap: 10px;
+        width: 85%;
+        margin: auto;
+        grid-template-rows: auto auto auto auto ;
+        grid-template-areas: 
+        "title"
+        "content"
+        "mainContent"
+        "footer"
+    
+    }
+
+    .title {
+        grid-area: title;
+        display: flex;
+        padding: 5px;
+        margin: 1px;
+        justify-content: space-around;
+        background-color: rgb(245, 234, 234);
+        font-size: 30px;
+    }
+
+    .content {
+        grid-area: content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mainContent {
+        grid-area: mainContent;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .footer {
+        grid-area: footer;
+        display: inline-block;
+        background-color: rgb(207, 180, 131 , 0.2);
+        text-align: center;
+
+    }
+
+    /* end of grid base */
+    /* start of the navbar */
+
+    .link {
+        padding: 5px;
+        color: rgb(86, 150, 247);
+        text-decoration: none;
+    }
+
+    .link:hover {
+        background-color: rgba(72, 249, 240, 0.097)
+    }
+
+    /* end of navbar */
+    /* start of content */
+
+    .image {
+        width: 80%;
+    }
+
+    .boy , .girl , .best , .new , .sale , .accessories {
+        width: 32%;
+        padding: 10px;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    .boyText , .girlText , .bestText, .newText , .saleText , .accText {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    /* end of content */
+    /* start of banner/main content */
+
+    .mainImage {
+        width:100%;
+        margin: 2px;
+    }
+
+    .mainText {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgba(255, 77, 103, 0.9);
+        font-size: 100px;
+        font-family:'Pacifico', cursive ;
+    }
+
+    /* end of main content */
+    /* start of the footer */
+
+    ul {
+        list-style-type:none
+    } 
+
+    li {
+        font-size: 20px;
+    }
+    
+    .pFooter {
+        font-size: 30px;
+        padding: 2px;
+    }
+
+
+    .sideFooter , .sideFooter2 , .sideFooter3 {
+        display: inline-block;
+        width: 25%;
+        padding: 2%;
+        text-align: center;
+    }
+
+
+
+
+
+   
+}
+
