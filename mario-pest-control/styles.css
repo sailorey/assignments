@@ -1,0 +1,55 @@
+img {
+    width: 150px;    
+}
+
+div {
+    margin: 5%;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(165, 165, 154);
+}
+
+.mario {
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: -1px;
+
+}
+
+.submitt {
+    text-align: center;
+}
+
+.goo {
+    float: left;
+}
+
+.bob {
+    float: left;
+}
+
+.ch {
+    float: left;
+}
+
+.footer {
+    text-align: center;
+}
+
+.pFooter {
+    font-size: 30px;
+    padding: 2px;
+}
+
+ul {
+    list-style-type:none
+} 
+
+li {
+    font-size: 20px;
+}
