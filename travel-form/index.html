@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Welcome To Sailor Airlines</h1>
+        <h3>Personal Information for Ticket:</h3>  
+        <form name="myForm">
+            <input type = "text" name="firstName" placeholder="First Name"/><br>
+            <input type = "text" name="lastName" placeholder="Last Name"/><br>
+
+            <input type = "number" name="age" placeholder="Age"/><br>
+
+            Male:   <input type="radio" name="gender" value="Male"/>
+            Female: <input type="radio" name="gender" value="Female"/><br>
+            <h3>Where you flying to:</h3>    
+                <select name="city"> 
+                    <option value="Paris" name="city1">Paris</option>
+                    <option value="New York" name="city2">New York</option>
+                    <option value="Chicago" name="city3">Chicago</option>
+                </select><br>
+                <h3>Diet:</h3>
+                <input type="checkbox" value="Vegetarian" name="diet"/>Vegetarian<br>
+                <input type="checkbox" value="Kosher" name="diet"/>Kosher<br>
+                <input type="checkbox" value="Lactose free" name="diet"/>Lactose free<br><br>
+            <button id="submit">Submit</button>
+
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
