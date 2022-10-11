@@ -1,0 +1,267 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#fontStyle1 {
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+    /* margin-top: 66px;
+    margin-right: 168px;
+    margin-bottom: 20p; */
+    margin-top: 40px;
+    margin-left: -95px;
+}
+body {
+    color: #325050;
+    
+}
+
+li {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: normal;
+    font-size: small;
+
+}
+
+h2 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: normal;
+}
+
+#fontStyle2 {
+    font-style: italic;
+    color:  rgba(255,255,255,0.6);
+    /* margin-left: -171px; */
+    margin-top: 105px;
+    font-size: 25px;
+    margin-right: 128px;
+}
+
+div#fontStyle2 {
+    margin-left: -470px;
+}
+
+
+
+.header3 {
+    /* text-align: right; */
+    color:  rgba(255,255,255,0.6);
+    /* margin-top: -65px;
+    margin-right: 52px; */
+    font-size: 23px;
+    margin-top: 86px;
+}
+
+.authorSpan {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.icons {
+    padding: 2%;
+    border-radius: 50%;
+    border: 3px solid rgba(189, 189, 189, 0.466);
+}
+
+.icons:hover {
+    background-color: rgba(152, 152, 152, 0.555);
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+
+.secondContainer {
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.firstContainer {
+    background-image: url("http://www.csszengarden.com/214/huntington.jpg");
+    height: 194px;
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 20px 20px 20px;
+}
+    
+
+.thirdContainer {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:
+    white;
+    grid-row: 2/3;
+    line-height: 2.5;
+}
+.fourthContainer {
+    color: #c0cac3;
+    padding: 15px;
+    background-color: #e7f0e1;
+    grid-row: 2/3;
+}
+.fourthContainer li {
+    padding: 15px;
+    border-bottom-style: solid;
+    border-top: 2;
+    
+}
+.fifthContainer {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(138,188,159,0.5);
+    grid-row: 3/3;
+    line-height: 2.5;
+}
+.sixthContainer {
+    background-color: rgba(138,188,159,0.5);
+    padding-top: 100px;
+    grid-row: 3/3;
+    line-height: 3;
+    padding-right: 45px;
+}
+.sixthContainer li {
+    padding: 10px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: thin;
+    text-align: left;
+}
+
+.seventhContainer {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    grid-column: 1;
+    line-height: 2.5;
+}
+.eighthContainer {
+    background-color: #e7f0e1;
+}
+.ninthContainer {
+    grid-column: 1/3;
+    text-align: center;
+    font-style: italic;
+    background-image: url(http://www.csszengarden.com/214/koi.jpg);
+    height: 91px;
+    block-size: fit-content;
+}
+.ninthContainer p {
+    font-size: 23px;
+    margin: 20px;
+}
+
+
+.ninthContainer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footerContainer {
+    background-color: rgb(19, 67, 71);
+    grid-column: 1/3;
+    display: flex;
+    font-size: 65px;
+    color: rgba(255,255,255,0.6);
+    padding: 15px;
+    width: auto;
+    justify-content: space-around;
+}
+
+.footerContainer div {
+
+    justify-content: space-between;
+}  
+
+    
+
+
+
+.greenTopImage {
+    position: relative;
+    margin-top: 19px;
+    height: 110px;
+    margin-left: -25px;
+}
+
+abbr {
+    text-decoration: underline dotted;
+}
+.capitalTitles {
+    color: #607476;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+}
+.byNames {
+    text-decoration: none;
+    color: #616857;
+}
+
+
+
+@media only screen and (max-width: 1260px) {
+    .firstContainer {grid-row: 1;grid-column: 1/4;justify-content: space-evenly;}
+    
+    .thirdContainer {
+        grid-row: 2;
+        grid-column: 1/4;
+    }
+    
+    .fourthContainer {
+    grid-row: 7;
+    grid-column: 1/4;
+    }
+
+
+    .fifthContainer {grid-row: 3;grid-column: 1/4;}
+    .sixthContainer {grid-row: 8;grid-column: 1/4;}
+    .seventhContainer {grid-row: 4;grid-column: 1/5;}
+
+    #fontStyle1 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: white;
+        margin-top: 40px;
+        margin-left: -37px;
+    }
+    #fontStyle2 {
+        font-style: italic;
+        color: rgba(255,255,255,0.6);
+        margin-top: 105px;
+        font-size: 20px;
+        margin-right: -300px;
+    }
+    .greenTopImage {
+        position: relative;
+        margin-top: 23px;
+        height: 80px;
+        margin-right: -98px;
+        margin-left: 40px;
+    }
+    .header3 {
+      
+        color: rgba(255,255,255,0.6);
+        font-size: 18px;
+        margin-top: 150px;
+        margin-left: -50px;
+    }
+    
+    
+
+
+    
+}

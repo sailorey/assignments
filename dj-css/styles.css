@@ -1,0 +1,110 @@
+body {
+    background-color: gray;
+}
+
+#box1 {
+    width: 100px; 
+    height: 100px;
+    border: 1px black;
+    background-color: rgb(68, 207, 241);  
+    -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+   
+   }
+   
+   #box1:hover {
+       background-color: rgb(9, 220, 16);
+       width: 1000px;
+       border-style: dashed;
+   }
+   
+   #box2 {
+   background-color: rgba(0, 0, 0, 0.428);
+   width: 100px;
+   height: 100px;
+   margin-top: 30px;
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+   }
+   
+   #box2:hover {
+       background-color: rgb(5, 255, 109);
+       border-style: solid;
+       height: 40px;
+       width: 300px;
+   }
+   
+   #box3 {
+   width: 100px;
+   height: 100px;
+   border: 1px black;
+   background-color: rgb(110, 52, 255);
+   margin-top: 30px;
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+   }
+   
+   #box3:hover {
+       width: 200px ;
+       position:fixed;
+       background-color: rgba(0, 255, 255, 0.192);
+   }
+   
+   #box4 {
+    background-color: rgb(28, 154, 226);
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+    }
+   
+    #box4:hover {
+       border-color: rgba(0, 255, 255, 0.092);
+       bottom: 40px;
+       background-color: rgba(127, 255, 212, 0.212);
+       height: 200px;
+       border-radius: 40px;
+    }
+   
+   #box5 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+   }
+   
+   #box5:hover {
+       background-color: rgb(220, 78, 68);
+       border-radius: 50px;
+       width: 600px;
+   }
+   
+   #box6 {
+   width: 100px;
+   height: 100px;
+   border: 1px black;
+   background-color: rgba(108, 49, 28, 0.099);
+   margin-top: 30px;
+   -webkit-transition: all 10s ease-in-out;
+   -moz-transition: all 10s ease-in-out;
+   -o-transition: all 10s ease-in-out;
+   transition: all 10s ease-in-out;
+   }
+   
+   #box6:hover {
+       background-color: rgba(245, 245, 245, 0.288);
+       width: 22000px
+   }
