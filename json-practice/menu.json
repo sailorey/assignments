@@ -1,0 +1,43 @@
+{
+    "appetizers": [
+        {
+            "Wings" : ["Hot", "spicy", "Medium"],
+            "Chips" : "Salsa",
+            "Dip" : ["avocado" , "cheese"]
+        }
+    ] ,
+    "cold sandwiches": [
+        {
+            "Cold cut combo" : ["Ham", "Cheese", "Turkey"],
+            "BLT" : ["Bacon", "Lettuce" , "Tomato"] ,
+            "Cold Chicken" : ["Chicken" , "Mayo" , "Lettuce"]
+        }
+    ] ,
+    "hot sandwiches": [
+        {
+            "Oven Roasted Chicken" : ["Chicken", "ranch", "Toasted Bread"],
+            "Meatball Marinara" : ["Meatball", "Red Sauce" , "Cheese"] ,
+            "Grilled Cheese Sandwich" : {
+                "cheese" : 3,
+                "Types" : ["Swiss" , "Cheddar" , "American"]
+            }
+        }
+    ] , 
+    "desserts": [
+        {
+            "Chocolate Cake" : ["Chocolate", "icing", "milk"],
+            "Vanilla Ice Cream" : ["Milk" , "Vanilla Extract" , "Water"],
+            "Mixed Leftover Desert -- This Many Days" : 2
+        }
+    ] , 
+    "drinks": [
+        {
+            "Types" : {
+                "Dark" : 3,
+                "Diet" : 0,
+                "Clear" : 3,
+                "Our Selection" : ["Coke" , "Sprite" , "Dr.Pepper" , "Mountain Dew" , "Root Beer"]
+            }
+        }
+    ]
+}
