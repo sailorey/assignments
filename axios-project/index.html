@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do using Axios</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Pacifico', cursive;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js" defer></script>
+
+</head>
+
+
+<body class="doodle">
+    <main class="border">
+        <h1>Things i have to do:</h1>
+        <hr>
+        <form name="myForm">
+            <!-- Title -->
+            <label for="listItem">To-Do:</label>
+            <input type="text" name="listItem" id="listItem" placeholder="Do you ACTUALLY have to?">
+
+            <!-- descripion -->
+            <label for="description">Description:</label>
+            <input type="text" name="description" id="listDescription" placeholder="What about it?">
+
+            <!-- price -->
+            <label for="price">$$$:</label>
+            <input type="text" name="price" id="listPrice" placeholder="How Expensive is it?">
+
+            <!-- imgUrl -->
+            <label for="imgUrl">URL Picture:</label>
+            <input type="text" name="imgUrl" id="listImgUrl" placeholder="OooooOoH pictures!">
+
+            <button class="mobile-btn">Submit</button>
+
+            <div class="border list">
+
+            <!-- JS -->
+            </div>
+
+            <button class="widescreen-btn">Submit</button>
+        </form>
+
+    </main>
+</body>
+
+</html>

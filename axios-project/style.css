@@ -1,0 +1,129 @@
+body {
+    background-image: -webkit-linear-gradient(left, rgba(22, 247, 247, 0.671), rgba(37, 253, 55, 0.534));
+    text-align: center;
+}
+
+form {
+    background-color: rgba(186, 191, 241, 0.455);
+    text-align: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
+:root {
+    --blue: rgb(97, 142, 234);
+    --red: #fc6767;
+}
+
+.list {
+    min-height: 5px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    background-color: #f5d9d972;
+    border: 1px solid rgb(105, 226, 156);
+}
+
+input:focus {
+    outline: 2px solid #67c3fc;
+}
+
+.mobile-btn {
+    width: 100%;
+    margin: 2px 0;
+    transition: all 250ms ease-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border:rgb(97, 142, 234)
+}
+
+button:hover {
+    background-color: var(--red);
+    color: #61d674;
+    border-radius: 12px;
+}
+
+.widescreen-btn {
+    display: none;
+}
+
+
+
+input[type="checkbox"] {
+    padding: 2px;
+}
+
+p {
+    display: inline;
+}
+
+
+
+
+
+
+/* Widescreens */
+@media screen and (min-width: 700px) {
+    
+    input[type="text"] {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    label {
+        margin: 5px 0;
+    }
+
+    .list {
+        margin: 30px auto;
+        width: 80%;
+        max-height: 50vh;
+        ;
+        word-wrap: break-word;
+        
+    }
+
+    .widescreen-btn {
+        width: 20%;
+        transition: all 250ms ease-out;
+        background-color: #2ce2c7;
+        color: #6778fc !important;
+        border-radius: 20%;
+    }
+
+    button:hover {
+        background-color: rgba(0, 0, 0, .7) !important;
+        border-radius: 12px;
+        width: 20%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .widescreen-btn {
+        display: block;
+        position: relative;
+
+    }
+
+    .mobile-btn {
+        display: none;
+    }
+
+    main {
+        margin: 5% ;
+    }
+}
