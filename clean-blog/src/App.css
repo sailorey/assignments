@@ -1,0 +1,64 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+  width: 100%;
+}
+
+.App-header {
+  display: grid;
+  grid: 150px/ auto auto;
+}
+
+ul {
+  text-align: right;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.bigTitle {
+  font-size: 60px;
+  font-weight: 800;
+  grid-column: 1 / span 2;
+  text-align: center;
+  margin: 0;
+  margin-top: 70px;
+}
+
+.underTitle {
+  font-size: 20px;
+  font-weight: 300;
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+.card {
+  margin: 20%;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.title:hover {
+  color: rgba(0, 106, 255, 0.473);
+}
+
+.subTitle {
+  font-size: 30px;
+}
+
+.author {
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(164, 164, 164, 0.586);
+}
