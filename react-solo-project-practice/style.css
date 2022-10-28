@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+.nav--logo {
+    background-color: #F55A5A;
+    color: white;
+    height: 5em;
+    position: relative 
+}        
+.nav--logo p {
+   margin: 0;
+   position: absolute;
+   top: 40%;
+   left: 45%;          
+}
