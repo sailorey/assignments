@@ -1,0 +1,31 @@
+body { 
+  background-color: black;
+}
+
+.flex{
+  display: flex;
+}
+
+.friend-list{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.friend-card{
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  width: 60%;
+}
+
+.pet-info{
+  border: 2px solid black;
+  margin: 20px 0px 5px 5px;
+  padding: 10px;
+  justify-content: center;
+  
+}
+
+.pet-lists{
+  overflow-x: scroll;
+}
