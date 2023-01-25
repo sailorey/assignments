@@ -1,0 +1,56 @@
+@media only screen and (min-width: 751px) {
+    .Services {    
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 50px;
+        margin: 0 2em;
+    }}
+
+    .Services * {
+        font-family:  'Playfair Display', serif;
+    }
+    .Services a {
+        grid-column: 1/4;
+    }
+    .Services h1 {
+        text-decoration: none;
+        grid-column: 1/4;
+        color: #353154;
+ 
+    }
+    .service {
+        background: #dddddd;
+        color: #353154;
+        border-radius: 20px;
+        text-decoration: none;
+        margin: 2em;
+    }
+    img {
+        width: 425px;
+        height: auto;
+    }
+    div.service img:hover {
+        border: #5c5c5f 2px solid;
+    }
+    div.service {
+        padding: 4rem;
+    }
+    div.service p {
+        padding: 0px 2rem;
+    }
+    div.service a {
+        color: #353154;
+        text-decoration: none;
+    }
+    div.service a:hover {
+        color: rgb(255, 255, 255);
+    }
+    div.service span {
+        text-decoration: underline;
+    }
+    div.service span:hover {
+        color: #91738b; 
+    }
+    div.service * {
+        font-family: 'Playfair Display', serif;
+    }

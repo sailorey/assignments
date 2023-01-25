@@ -1,0 +1,116 @@
+@media only screen and (max-width: 750px) {
+    .image-equipment {
+        padding: 2%;
+        width: 500px;
+        height: 350px;
+        border-radius: 10%;
+    }
+
+    
+    }
+    
+    @media only screen and (min-width:951px) {
+    #specialties ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #about-me {
+        display:grid;
+        grid-template-columns: 3fr 4fr;   
+    }
+    .headshot {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-equipment {
+        padding: 2%;
+        width: 500px;
+        height: 350px;
+        border-radius: 10%;
+    }
+
+    
+   
+    }
+    
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        padding: 20px 0px;
+    }
+    section {
+        width:100%;
+        background: #201a1a71;
+    }
+    
+    #index div h1 {
+        color: #8b8b8b71;
+        font-size: 3rem;
+        text-shadow: 1px 1px rgba(1, 1, 1, 0.3);
+    }
+    #index div h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: slategray;
+    }
+    
+    #head-shot {
+        width: 50%;
+        height: auto;
+        margin: 20px 0;
+        align-self:center;
+    }
+    #i-rey {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        padding: 5em 0;
+    }
+    #i-rey h1 {
+        font-family: 'Playfair Display', serif;
+        color: slategray;
+        font-size: 2.5rem;
+        border-bottom: 2px slategray solid;
+        margin: 0 50px;
+    }
+    #i-rey p {
+        font-family: 'Montserrat', sans-serif;
+        color: slategray;
+        font-weight: bolder;
+        font-size: 1rem;
+        padding: 0 30px;
+    }
+    #read-more {
+        background-color: rgba(176, 87, 49, 1)
+    }
+    #specialties {
+        height:fit-content;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        align-content: center;
+        justify-content: center;
+        color: #000000;
+        padding: 0px;
+    }
+    #specialties ul {
+        list-style:circle;
+        height: 50%;
+        padding: 0px;
+    }
+    #specialties ul li {
+        padding: 3rem 4rem 3rem 3rem;
+        list-style: none;
+        font-size: 1.75rem;
+    }
+    

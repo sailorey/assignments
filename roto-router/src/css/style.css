@@ -1,0 +1,198 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:751px) {
+    #hamburger {
+        display: none;
+    }
+#grid-container1 {
+    justify-items: space-between;
+    align-items:center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 3em;
+    align-items: stretch;
+    width: 100%;
+}
+#menu li {
+    padding: 5px;
+}
+header  h1 {
+    width: 350px;
+    text-align: left;
+    padding-left: 30px;
+}
+header nav ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#email-form {
+    margin: 100px 0px;
+}
+}
+
+@media only screen and (max-width: 750px) {
+#grid-container1  {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}   
+#hamburger {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+}
+
+#menu{
+    grid-column: 1/3;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+#menu li {
+    padding-left: 10px;
+    align-self: center;
+}
+#menu li:last-of-type {
+    display: block;
+    width: 100%;
+}
+#menu button {
+    display: block;
+    margin-right: 10px;
+}
+header h1 {
+    grid-column: 1/3;
+}
+
+}
+header, footer {
+    background: #3a5d6d;
+    color: #dfdbde; 
+    height: 200px;
+}
+header a {
+    text-decoration: none;
+    color:white;
+}
+header a:hover {
+    color: rgb(0, 0, 0)
+}
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+footer {
+
+    height: max-content;
+    font-family: 'Montserrat', sans-serif;
+}
+footer * {
+    text-align: left;
+}
+footer div ul {
+    list-style: outside none;
+    margin-left: 50px;
+}
+footer div h1 {
+    margin-left: 50px;
+}
+footer div ul li {
+    margin: 10px 100px 0px 0px;
+}
+#copywrite {
+    margin-left: 50px;
+}
+#email-form {
+    display: grid;
+    grid-template-columns:  2fr 3fr;
+    margin-right: 2em;
+}
+#emailForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#phone {
+    grid-column: 1 /3;
+}
+#message {
+    grid-column: 1/3;
+}
+#email-form input {
+    border-bottom: #fff solid 2px;
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 20px;
+    border: none;
+    border-bottom: #dddbf3 1px solid;
+}
+#submit {
+    background: #353154;
+    grid-column: 2/3;
+    color:#dddbf3 ;
+    font-size: x-large;
+    border: none;
+}
+
+/* Button Styling */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: rgba(49, 176, 170, 0.5);
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #2bc19e;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+a {
+    text-decoration: none;
+}

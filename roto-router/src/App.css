@@ -1,0 +1,15 @@
+.HeaderNav {
+  position:absolute;
+  display: flex;
+  align-items:space-between;
+}
+header nav *{
+
+  font-family:  'Montserrat', sans-serif;
+}
+
+.footer {
+  display: block;
+  position: relative;
+  
+}
