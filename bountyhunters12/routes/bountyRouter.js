@@ -12,14 +12,14 @@ bountyRouter.delete('/:bountyId', (req, res)=>{
     const bountyId = req.params.bountyId
     const bountyIndex = bountys.findIndex(bounty=>bounty._id === bountyId)
     bountys.splice(bountyIndex, 1)
-res.send(`${bountyId} has been removed`)
+    res.send(`${bountyId} has been removed`)
 })
 
 bountyRouter.put('/:bountyId', (req, res)=>{
     const bountyId = req.params.bountyId
     const bountyIndex = bountys.findIndex(bounty=>bounty._id === bountyId)
     const updatedBounty = Object.assign(bountys[bountyIndex], req.body)
-res.send(updatedBounty)
+    res.send(updatedBounty)
 })
 
 //routes
