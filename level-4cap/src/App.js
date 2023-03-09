@@ -19,9 +19,9 @@ function App() {
           </nav>
         </header>
         <Routes>
-          <Route path="/Mypokemon" element={<Mypokemon />}></Route>
-          <Route path="/" element={<Main />}></Route>
-          <Route path="/Pokedex" element={<Pokedex />}></Route>
+          <Route path="/Mypokemon" element={<Mypokemon />}/>
+          <Route path="/" element={<Main />}/>
+          <Route path="/Pokedex" element={<Pokedex />}/>
         </Routes>
         
     </Router>
