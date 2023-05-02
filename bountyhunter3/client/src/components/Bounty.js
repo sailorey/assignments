@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { BountyContext } from "../bountyContext";
-import BountyEdit from "./models/BountyEdit";
+import BountyEdit from "./modals/BountyEdit";
 import {CgCloseO} from 'react-icons/cg'
 import {AiOutlineEdit} from 'react-icons/ai'
 
@@ -15,8 +15,6 @@ const editBounty = ()=>{
   setToggleEdit(!toggleEdit)
 }
 
-    const styles =
-    {color: type === "Jedi" ? "#0000FF" : type === "sith" ? "white" : "#FF0000"}
 
   const typeStyle =
     type === "Sith"
@@ -33,10 +31,10 @@ const editBounty = ()=>{
           {firstName} {lastName} </span>
         </h4>
         <section className="text">
-          Bounty Amount: <span className="white">${amount}</span>
+          Bounty Amount: <span>${amount}</span>
         </section>
         <section className="text">
-          Type: <span style={styles}>{type}</span>{" "}
+          Type: <span>{type}</span>{" "}
         </section>
         <div className="living-div">
           <section className="text">

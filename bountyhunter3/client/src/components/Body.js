@@ -1,6 +1,6 @@
 import React, {useState, useContext} from "react"
 import Bounty from "./Bounty"
-import BountyAdd from "./models/BountyAdd"
+import BountyAdd from "./modals/BountyAdd"
 import { BountyContext } from "../bountyContext"
 
 

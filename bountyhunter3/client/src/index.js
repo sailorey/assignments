@@ -10,8 +10,8 @@ root.render(
  <BrowserRouter>
   <React.StrictMode>
      <BountycontextProvider>
-    <App />
-    </BountycontextProvider>
-  </React.StrictMode>
+        <App />
+      </BountycontextProvider>
+    </React.StrictMode>
   </BrowserRouter>
 );

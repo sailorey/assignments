@@ -6,7 +6,7 @@
   
 }
 html{
-  background-image: url('https://i0.wp.com/comicbookdispatch.com/wp-content/uploads/2021/10/img_9506.jpg?resize=1120%2C768&ssl=1');
+  background-image: url('https://images3.alphacoders.com/114/11439.png');
 background-size: cover;
 background-attachment: fixed;
 }
@@ -33,7 +33,6 @@ font-size: 5vh;
   padding: 1vh;
   height: 83vh;
   overflow: auto;
-/* background-color: rgb(174, 174, 174); */
 }
 .body2{  
   display: flex;
@@ -41,7 +40,6 @@ font-size: 5vh;
   padding: 1vh;
   height: 83vh;
   overflow: auto;
-/* background-color: rgb(174, 174, 174); */
 }
 
 .footer-div{
@@ -59,18 +57,17 @@ height:5vh;
   font-size: 40px;;
 }
 .bounty-modal-div{
-  width:100%;
-  font-size: 10px;
+  width:100%
 }
 .bounty-modal-div>form{
-  color:rgb(255, 157, 0);
+  color:yellow;
   background-color: rgba(0, 0, 0, 0.645);
   display: flex;
   gap: 5px;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  padding:2px;
+  padding:5px;
 }
 .bounty-modal-div>form>div{
   width:100%;
@@ -79,28 +76,28 @@ height:5vh;
   gap: 5px;
   align-items: center;
   justify-content: flex-start;
-  font-size: 15px;
 }
 .bounty-modal-div>form>button{
   border: 1px grey solid;
-height:40px;
+height:70px;
 background-color: black;
-font-size: 20px;
+font-size: 30px;
 color:white;
-margin:10px;
+margin:20px;
 border-radius: 10px;
 }
 
 .bounty-modal-div>form>input{
-    width:5%;
-    font-size: 10px;
+width:20%;
 }
-
+.text>span{
+  color:white;
+}
 
 .individual-bounty-div-sith{
   margin-bottom: 10px;
   width:40%;
-  background-color: rgba(252, 68, 7, 0.297);
+  background-color: rgba(252, 7, 7, 0.297);
   font-size:20px;
   padding:5px;
 }
@@ -117,19 +114,17 @@ border-radius: 10px;
   padding:5px;
   height: fit-content;
   width:100%;
-  color:#3de3d5;
-  border:1px solid rgba(130, 244, 30, 0.441);
-
   display: flex;
   flex-direction: column;
 align-items: left;
+  color:yellow;
   background-color: rgba(0, 0, 0, 0.854);
   
 }
 .bounty-main-div>button{
 width:200px;
-color:rgb(199, 64, 64);
-border:1px solid rgba(130, 244, 30, 0.441);
+color:white;
+border:1px solid red;
   background-color: rgb(0, 0, 0);
   margin-bottom: 15px;
 }
@@ -140,17 +135,17 @@ border:1px solid rgba(130, 244, 30, 0.441);
 
 .img-div-sith{
   margin-bottom: 10px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/07/29/19/15/darth-maul-1555343__340.png");
   opacity: 50%;
-  background-color: rgba(252, 68, 7, 0.297);
-  
 background-size: cover;
 background-position: 0px 1000px;
   width:120vh;
 }
 .img-div-jedi{
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/01/14/24/star-wars-2908139__340.jpg");
   margin-bottom: 10px;
   opacity: 50%;
-  background-color: rgba(0, 145, 255, 0.218);
+  background-color: red;
   background-size: cover;
 background-position: 0px, 400px;
   width:120vh;
@@ -160,11 +155,11 @@ background-position: 0px, 400px;
 }
 
 .alive{
-  color:rgb(85, 255, 0);
+  color:white;
 }
 
 .dead{
-  color:rgb(255, 0, 0);
+  color:white;
 }
 
 .name{
@@ -237,7 +232,7 @@ width:100%;
 }
 
 .select-edit{
-  margin-left: 40px;
+  margin-left: 25px;
   margin-bottom: 10px;
   margin-top: 20px;
   transform: scale(2);
@@ -245,23 +240,19 @@ width:100%;
 
 .select-add{
   margin-left: 0;
-  margin-top: 10px;
+  margin-top: 20px;
   transform: scale(2);
 }
 
 .save-button{
 
-    font-size: 20px;
-    border-radius: 10px;
-    margin-top: 30px;
-    width:200px;
-    height:50px;
-    color:yellow;
-    border:1px solid yellow;
-    background-color: rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  width:200px;
+  height:50px;
+color:yellow;
+border:1px solid yellow;
+  background-color: rgb(0, 0, 0);
 
-}
-
-.white {
-    color: white;
-}
+} 

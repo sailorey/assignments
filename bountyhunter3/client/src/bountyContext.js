@@ -5,14 +5,14 @@ const BountyContext = createContext();
 const BountycontextProvider = (props) => {
   const [bounties, setBounties] = useState([]);
 
-  useEffect(() => {
-    axios
-      .get("/bounties")
-      .then((res) => setBounties(res.data))
-      .catch((err) => console.log(err));
-  }, []);
-
-
+  function getBounty(){
+    axios.get("/bounties")
+        .then(res => setBounties(res.data))
+        .catch(err => console.log(err.response.data.errMsg))
+}
+    useEffect(() => {
+      getBounty()
+    }, [])
 
   const deleteBounty = (id) => {
     axios
