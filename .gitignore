@@ -6400,3 +6400,4 @@ node_modules/@aws-sdk/credential-provider-process/dist-types/index.d.ts
 node_modules/@aws-sdk/credential-provider-process/dist-types/ProcessCredentials.d.ts
 node_modules/@aws-sdk/credential-provider-process/dist-types/resolveProcessCredentials.d.ts
 package-lock.json
+memegenerator
